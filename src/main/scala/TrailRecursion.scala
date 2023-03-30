@@ -25,7 +25,7 @@ object TrailRecursion extends App {
   }
 
   val startTime1 = System.nanoTime()
-  println(factorial(10))
+  println(factorialImproved(10))
   println(s"Time taken by tail recursion function took ${System.nanoTime() - startTime1} nanoSeconds")
 
 }
